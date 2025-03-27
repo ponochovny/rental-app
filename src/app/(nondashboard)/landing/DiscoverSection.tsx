@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 
 const containerVariants = {
-	hidden: { opacity: 0, y: 50 },
+	hidden: { opacity: 0, y: 0 },
 	visible: {
 		opacity: 1,
 		transition: {
